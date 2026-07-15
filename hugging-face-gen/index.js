@@ -9,7 +9,7 @@ async function generateImage() {
     model: "black-forest-labs/FLUX.1-schnell",
     provider: "hf-inference",	
   //  inputs: 'Comic illustration of a chaotic Indian parliament session, politicians shouting and throwing papers, Speaker banging gavel, exaggerated cartoon expressions, editorial cartoon style, 4k',
-    inputs: 'Satirical cartoon of acrowded Indian election rally, politicians on a stage making big promises, oversized banners and posters, confused voters in the crowd, bright colors, comic exaggerated style, 4k detailed illustration',
+    inputs: 'generate image of a person is the beautiful one and most handsome',
   });
 
   fs.writeFileSync('output.png', Buffer.from(await result.arrayBuffer()));
